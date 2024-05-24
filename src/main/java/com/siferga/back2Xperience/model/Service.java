@@ -10,7 +10,7 @@ import java.util.Set;
 public class Service {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Integer serviceId;
 
     @Column(unique = true, nullable = false)
     private String serviceName;
